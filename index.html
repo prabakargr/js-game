@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="game.css">
+	<title></title>
+</head>
+<body>
+<div class="container">
+   <h4 class="text-center mt-3">Game</h4>
+   <h5 class="text-center text-primary mt-4 mb-3">Match the Number</h5>
+	<div class="row text-center">
+		  <div class="col-10">
+             <div class="form-group">
+                <input type="text" class="form-control" id="qusnumb" value="" readonly placeholder="Click Next">
+             </div>
+          </div>
+          <div class="col-2">
+          	  <button type="button" class="btn btn-primary px-3" onclick="changeFunction()">Next</button>
+          </div>   		
+	</div> 
+	<div class="row text-center">
+		<div class="col-10">
+			<div class="form-group">
+                <input type="text" class="form-control" id="inpvalue"
+                placeholder="Type check">
+             </div>
+		</div>
+		<div class="col-2 ">
+             <button class="btn btn-primary " class="" onclick="checkFunction()">check</button>
+        </div>
+	</div>
+	<div class="row mt-1 ">
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="1" id="val1" onclick="insertNumber(this.id)">1</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="2" id="val2" onclick="insertNumber(this.id)">2</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="3" id="val3" onclick="insertNumber(this.id)">3</button>
+		</div>
+	</div>
+	<div class="row mt-1 ">
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="4" id="val4" onclick="insertNumber(this.id)">4</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="5" id="val5" onclick="insertNumber(this.id)">5</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="6" id="val6" onclick="insertNumber(this.id)">6</button>
+		</div>
+	</div>
+	<div class="row mt-1 ">
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="7" id="val7" onclick="insertNumber(this.id)">7</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="8" id="val8" onclick="insertNumber(this.id)">8</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="9" id="val9" onclick="insertNumber(this.id)">9</button>
+		</div>
+	</div>
+	<div class="row mt-1 ">
+		<div class="col">
+			
+		</div>
+		<div class="col">
+			<button class="btn btn-primary text-center p-3" value="0" id="val0" onclick="insertNumber(this.id)">0</button>
+		</div>
+		<div class="col">
+			
+		</div>
+	</div>
+	<div class="row mt-1">
+		<div class="col">
+			
+		</div>
+		<div class="col text-center">
+		</div>
+		<div class="col">
+			
+		</div>
+	</div>
+	<div>
+		<span id="result"></span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="game.js" ></script>
+</body>
+</html>
